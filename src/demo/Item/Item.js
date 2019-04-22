@@ -68,13 +68,13 @@ export default class Item {
     }
 
     // 加入购物车
-    // @log('add')
+    @log('add')
     addToCartHandle() {
         this.cart.add(this.data)
     }
 
     // 从购物车删除
-    // @log('del')
+    @log('del')
     deleteFromCartHandle() {
         this.cart.del(this.data.id)
     }

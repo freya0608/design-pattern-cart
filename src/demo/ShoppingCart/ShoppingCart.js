@@ -7,7 +7,7 @@ export default class ShoppingCart {
         this.$el = $('<div>').css({
             'padding-bottom': '10px',
             'border-bottom': '1px solid #ccc'
-        })
+        });
         this.cart = getCart()
     }
 
